@@ -126,7 +126,7 @@ div p{
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1300px){
 
     .continer {
     height: auto;
