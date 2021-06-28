@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+.continer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 30% 0px, 30% 450px;
+}
+.contenedor-div{
+    width: auto;
+}
+.contenedor-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 3em;
+    font-weight: 700;
+    width: 400px;
+}
+
+.texto-stadistic {
+    color: hsl(303, 10%, 53%);
+    width: 450px;
+}
+
+.contenedor-rate {
+    width: 800px;
+    padding: 25px;
+}
+
+.contenedor-rate div {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    background-color: hsl(300, 24%, 96%);
+    width: 450px;
+    padding: 20px 20px 20px 30px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.alinear-span-stadistic {
+    margin-right: 40px;
+}
+
+.contenedor-rate .rate1 {
+    margin-left: 220px;
+}
+
+.contenedor-rate .rate2 {
+    margin-left: 270px;
+}
+
+.contenedor-rate .rate3 {
+    margin-left: 320px;
+}
+.contenedor-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.cards{
+    width: 340px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 30px;
+    padding: 50px 35px;
+    border-radius: 10px;
+} 
+.cards div{
+    display: flex;
+    justify-content: left;
+}
+img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+div p{
+    text-align: left;
+    color:hsl(0, 0%, 100%);
+}
+.perfil span{
+    margin:auto;
+    margin-left: 30px;
+}
+.name{
+    font-weight: 700;
+    font-size: 1.2em;
+    margin:auto;
+    margin-bottom: 7px;
+}
+.profesion{
+    color:hsl(333, 80%, 67%);
+    margin:auto;
+}
+.text-profile{
+    line-height : 25px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1440px){
+
+    .continer {
+    height: auto;
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 0%,  0 bottom;
+    padding-bottom: 50px;
+    }
+    .contenedor-stadistic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 2em;
+        width: 330px;
+    }
+    .contenedor-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+     .texto-stadistic {
+        text-align: center;
+        width: 340px;
+    }
+    
+    .contenedor-rate .rate1 {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .contenedor-rate .rate2 {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .contenedor-rate .rate3 {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .contenedor-rate div {
+        width: auto;
+    }
+    .rate1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .rate1 span{
+        margin: auto;
+    }
+    .rate2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .rate2 span{
+        margin: auto;
+    }
+    .rate3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .rate3 span{
+        margin: auto;
+    }
+
+    .alinear-span-stadistic {
+        padding-bottom: 7px;
+    }
+    .contenedor-rate {
+        width: auto;
+        padding: 25px;
+    }
+    
+
+    /*CARDS*/
+    .contenedor-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+    .cards{
+        box-sizing: border-box;
+        width: 310px;
+        margin: 10px;
+        padding: 30px 31px;
+        border-radius: 10px;
+    } 
+  
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    
+    .perfil span{
+        margin:auto;
+        margin-left: 30px;
+    }
+    .perfil{
+        margin-bottom: 15px;
+    }
+    .name{
+        font-weight: 700;
+        font-size: 0.9em;
+        margin:auto;
+        margin-bottom: 3px;
+    }
+    .profesion{
+        font-size: 0.9em;
+    }
+   
+    .text-profile{
+        line-height : 20px;
+        font-size: 0.8em;
+    }
+}
